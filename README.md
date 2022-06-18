@@ -3,7 +3,7 @@
 ## Environment
 
 ```bash
-npx create-vite MyPortfolio_React_Vite --template react-ts 
+npx create-vite Vite_React --template react-ts 
 ```
 
 ### Lint関連
