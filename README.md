@@ -21,11 +21,11 @@ npm i eslint-plugin-styled-components-varname
 | [eslint-plugin-styled-components-varname](https://www.npmjs.com/package/eslint-plugin-styled-components-varname) | ^1.0.1 | styled-components の変数名の命名ルールを設定する |
 | [fs-extra](https://www.npmjs.com/package/fs-extra) | ^10.1.0 | node.js標準のfsモジュールを vite で使用可能にする |
 | [react](https://www.npmjs.com/package/react) | ^18.0.0 | ユーザインタフェース構築のための JavaScript |
-| [react-dom](https://www.npmjs.com/package/react-dom) | ^18.0.0 |  |
+| [react-dom](https://www.npmjs.com/package/react-dom) | ^18.0.0 | Javascript のオブジェクトでリアルDOMを仮想的に作り、変更箇所だけ差分検知し更新することを React で行えるようにする |
 | [react-icons](https://www.npmjs.com/package/react-icons) | ^4.4.0 | `Ant Design` や `Material Design`などを集めたアイコンの宝庫 |
 | [styled-components](https://www.npmjs.com/package/styled-components) | ^5.3.5 | React思想のコンポーネント単位での管理がスタイルにも可能になる |
 | [vite-plugin-env-compatible](https://www.npmjs.com/package/vite-plugin-env-compatible) | ^1.1.1 | vite で process.env の形式で環境変数を使用可能にする |
-| [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths) | ^3.5.0 |  |
+| [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths) | ^3.5.0 | vite.config.ts に tsconfig.json で指定した alias path を反映する |
 | [@types/fs-extra](https://www.npmjs.com/package/@types/fs-extra) | ^9.0.13 | fs-extraの型定義ファイル |
 | [@types/react](https://www.npmjs.com/package/@types/react) | ^18.0.0 | reactの型定義ファイル |
 | [@types/react-dom](https://www.npmjs.com/package/@types/react-dom) | ^18.0.0 | react-domの型定義ファイル |

@@ -15,6 +15,8 @@ const getDesc = (packageName: string) => {
       return 'JavaScript に対して、静的型付けとクラスベースオブジェクト指向を加えた言語'
     case 'react-router-dom':
       return 'ルーティングを定義できる'
+    case 'react-dom':
+      return 'Javascript のオブジェクトでリアルDOMを仮想的に作り、変更箇所だけ差分検知し更新することを React で行えるようにする'
     case 'ts-node':
       return 'typescript のファイルを単体で実行できるモジュール'
     case 'styled-components':
@@ -59,8 +61,8 @@ const getDesc = (packageName: string) => {
       return 'vite 公式の React サポートプラグイン'
     case 'vite':
       return '従来のビルドツールと比較して、高速で動作するビルドツールパッケージ'
-    case '':
-      return ''
+    case 'vite-tsconfig-paths':
+      return 'vite.config.ts に tsconfig.json で指定した alias path を反映する'
     default:
       break
   }
