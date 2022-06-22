@@ -23,12 +23,14 @@ module.exports = {
     '@typescript-eslint',
     'react-hooks',
     'styled-components-varname',
+    "import"
   ],
   rules: {
     'no-use-before-define': 'off', // import React from 'react' のエラー回避
     '@typescript-eslint/no-use-before-define': ['error', { "variables": false }],
     'camelCase': 'off',
     'space-before-function-paren': 'off',
+    "import/no-duplicates": "error",
     'react/react-in-jsx-scope': 'off',
     "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
     "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
@@ -46,7 +48,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: '17.0.2'
+      version: 'detect'
     }
   }
 }

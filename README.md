@@ -23,6 +23,7 @@ npm i eslint-plugin-styled-components-varname
 | [react](https://www.npmjs.com/package/react) | ^18.0.0 | ユーザインタフェース構築のための JavaScript |
 | [react-dom](https://www.npmjs.com/package/react-dom) | ^18.0.0 | Javascript のオブジェクトでリアルDOMを仮想的に作り、変更箇所だけ差分検知し更新することを React で行えるようにする |
 | [react-icons](https://www.npmjs.com/package/react-icons) | ^4.4.0 | `Ant Design` や `Material Design`などを集めたアイコンの宝庫 |
+| [react-router-dom](https://www.npmjs.com/package/react-router-dom) | ^6.3.0 | ルーティングを定義できる |
 | [styled-components](https://www.npmjs.com/package/styled-components) | ^5.3.5 | React思想のコンポーネント単位での管理がスタイルにも可能になる |
 | [vite-plugin-env-compatible](https://www.npmjs.com/package/vite-plugin-env-compatible) | ^1.1.1 | vite で process.env の形式で環境変数を使用可能にする |
 | [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths) | ^3.5.0 | vite.config.ts に tsconfig.json で指定した alias path を反映する |
