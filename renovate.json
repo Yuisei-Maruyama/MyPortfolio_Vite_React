@@ -1,5 +1,11 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "schedule": ["after 10pm and before 5am every weekend"],
+  "ignorePresets": [":prHourlyLimit2"],
+  "timezone": "Asia/Tokyo",
+  "dependencyDashboard": false,
+  "automerge": true,
+  "branchConcurrentLimit": 0
 }
