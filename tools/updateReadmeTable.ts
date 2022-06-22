@@ -9,6 +9,8 @@ const version: string[] = []
 
 const getDesc = (packageName: string) => {
   switch (packageName) {
+    case '@babel/core':
+      return 'babel 設定ファイル'
     case 'react':
       return 'ユーザインタフェース構築のための JavaScript'
     case 'typescript':
@@ -63,6 +65,8 @@ const getDesc = (packageName: string) => {
       return '従来のビルドツールと比較して、高速で動作するビルドツールパッケージ'
     case 'vite-tsconfig-paths':
       return 'vite.config.ts に tsconfig.json で指定した alias path を反映する'
+    case 'vite-plugin-linaria':
+      return 'vite で linaria を扱うためのプラグイン'
     default:
       break
   }
