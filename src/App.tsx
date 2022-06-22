@@ -3,7 +3,6 @@ import { Routes, Route, Link } from 'react-router-dom'
 import { Home, Board, NoMatch } from './pages'
 
 function App() {
-
   return (
     <div className="App">
       <ul>
@@ -14,7 +13,7 @@ function App() {
           <Link to="/board">Board</Link>
         </li>
       </ul>
-     <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/board" element={<Board />} />
         <Route path="*" element={<NoMatch />} />
