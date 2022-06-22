@@ -27,6 +27,7 @@ npm i eslint-plugin-styled-components-varname
 | [styled-components](https://www.npmjs.com/package/styled-components) | ^5.3.5 | React思想のコンポーネント単位での管理がスタイルにも可能になる |
 | [vite-plugin-env-compatible](https://www.npmjs.com/package/vite-plugin-env-compatible) | ^1.1.1 | vite で process.env の形式で環境変数を使用可能にする |
 | [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths) | ^3.5.0 | vite.config.ts に tsconfig.json で指定した alias path を反映する |
+| [@babel/core](https://www.npmjs.com/package/@babel/core) | ^7.18.5 | babel 設定ファイル |
 | [@types/fs-extra](https://www.npmjs.com/package/@types/fs-extra) | ^9.0.13 | fs-extraの型定義ファイル |
 | [@types/react](https://www.npmjs.com/package/@types/react) | ^18.0.0 | reactの型定義ファイル |
 | [@types/react-dom](https://www.npmjs.com/package/@types/react-dom) | ^18.0.0 | react-domの型定義ファイル |
@@ -46,5 +47,6 @@ npm i eslint-plugin-styled-components-varname
 | [prettier](https://www.npmjs.com/package/prettier) | ^2.7.1 | コードの整形 |
 | [typescript](https://www.npmjs.com/package/typescript) | ^4.6.3 | JavaScript に対して、静的型付けとクラスベースオブジェクト指向を加えた言語 |
 | [vite](https://www.npmjs.com/package/vite) | ^2.9.9 | 従来のビルドツールと比較して、高速で動作するビルドツールパッケージ |
+| [vite-plugin-linaria](https://www.npmjs.com/package/vite-plugin-linaria) | ^1.0.0 | vite で linaria を扱うためのプラグイン |
 
 ### コンポーネント作成にあたって
