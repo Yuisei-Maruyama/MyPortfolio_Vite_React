@@ -7,7 +7,7 @@ const Home: FC = () => {
 
 const _Wrapper = styled.div`
   height: 100vh;
-  background-color: #041C2A;
+  background-color: #041c2a;
 `
 
 export default Home
