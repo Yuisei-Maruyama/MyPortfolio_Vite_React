@@ -23,7 +23,7 @@
     "vite-tsconfig-paths": "^3.5.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.5",
+    "@babel/core": "7.18.9",
     "@types/fs-extra": "^9.0.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
